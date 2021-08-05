@@ -1,0 +1,1 @@
+web: gunicorn tea_shop.wsgi:application
