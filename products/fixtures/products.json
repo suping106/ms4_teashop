@@ -1,0 +1,44 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "1",
+            "name": "English Black Tea",
+            "description": "Brisk and slightly coppery with a somewhat lemony quality",
+            "price": 19.99,
+            "category": 1,
+            "rating": 4,
+            "image_url": null,
+            "image": "english-black-tea_8GUCpHh.jpg"
+        }
+    },  
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "2",
+            "name": "Yunnan Black Tea",
+            "description": "Brisk and slightly coppery with a somewhat lemony quality",
+            "price": 14.99,
+            "category": 1,
+            "rating": 4,
+            "image_url": null,
+            "image": "yunnan-black_-tea_q6O2kNF.jpg"
+        }
+    },  
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "3",
+            "name": "LongJing Tea",
+            "description": "Brisk and slightly coppery with a somewhat lemony quality",
+            "price": 24.99,
+            "category": 1,
+            "rating": 4.5,
+            "image_url": null,
+            "image": "yunnan-black_-tea_q6O2kNF.jpg"
+        }
+    },   
+]

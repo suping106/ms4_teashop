@@ -5,7 +5,7 @@
         "fields": {
             "name": "Q1",        
             "question": "What are the benefits of drinking green tea?",
-            "answer": "Drinking green tea may have many benefits and the most important benefits include anti-carcinogenic, anti-aging, anti-inflammatory, anti-bacterial properties.  Green tea might help in preventing and treating neurodegenerative diseases and heart disease. Green tea is popular as a weight loss aid and for lowering cholesterol levels."   
+            "answer": "Drinking green tea may have many benefits and the most important benefits include anti-carcinogenic, anti-aging, anti-inflammatory, anti-bacterial properties. "   
         }
     },
     {
@@ -14,7 +14,7 @@
         "fields": {
             "name": "Q2",        
             "question": "What is black tea?",
-            "answer": "Black tea is made from the leaves of a bush called Camellia sinensis. It has caffeine as well as other stimulants and antioxidants. Lots of people in the U.S. drink it either hot or cold. It should always be steeped in hot water before it is cooled. A process called oxidation turns the leaves from green to a dark brownish-black color. Oxidation means the leaves are exposed to moist, oxygen-rich air."       
+            "answer": "Black tea is made from the leaves of a bush called Camellia sinensis. It has caffeine as well as other stimulants and antioxidants. It should always be steeped in hot water before it is cooled. A process called oxidation turns the leaves from green to a dark brownish-black color. Oxidation means the leaves are exposed to moist, oxygen-rich air."       
         }
     },
     {
