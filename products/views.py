@@ -63,7 +63,7 @@ def all_products(request):
 
 
 def product_detail(request, product_id):
-    """ A view to show individual product details """
+    """ A view to show individual product details and product reviews """
 
     product = get_object_or_404(Product, pk=product_id)
     if request.user.is_authenticated:

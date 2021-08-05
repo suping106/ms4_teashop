@@ -28,7 +28,7 @@ body {
 }
 
 .shop-now-button {
-    background: rgb(52, 11, 236);
+    background: olive;
     color: rgb(252, 247, 247);
     min-width: 260px;
 }
@@ -75,6 +75,10 @@ body {
 
 .bg-blue {
     background: rgb(52, 11, 236) !important;
+}
+
+.bg-olive {
+    background: olive !important;
 }
 
 .overlay {

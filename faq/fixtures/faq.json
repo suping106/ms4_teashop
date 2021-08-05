@@ -1,0 +1,57 @@
+[
+    {
+        "pk": 1,
+        "model": "faq.faq",
+        "fields": {
+            "name": "Q1",        
+            "question": "What are the benefits of drinking green tea?",
+            "answer": "Drinking green tea may have many benefits and the most important benefits include anti-carcinogenic, anti-aging, anti-inflammatory, anti-bacterial properties.  Green tea might help in preventing and treating neurodegenerative diseases and heart disease. Green tea is popular as a weight loss aid and for lowering cholesterol levels."   
+        }
+    },
+    {
+        "pk": 2,
+        "model": "faq.faq",
+        "fields": {
+            "name": "Q2",        
+            "question": "What is black tea?",
+            "answer": "Black tea is made from the leaves of a bush called Camellia sinensis. It has caffeine as well as other stimulants and antioxidants. Lots of people in the U.S. drink it either hot or cold. It should always be steeped in hot water before it is cooled. A process called oxidation turns the leaves from green to a dark brownish-black color. Oxidation means the leaves are exposed to moist, oxygen-rich air."       
+        }
+    },
+    {
+        "pk": 3,
+        "model": "faq.faq",
+        "fields": {
+            "name": "Q3",        
+            "question": "How do I care for my teapot?",
+            "answer": "Clean your tea ware with mild soap and warm water, using care if the pot has gold or platinum trim. For cleaning tea stains, use a small amount of baking soda to gently rub away the stain. Always pre-warm with warm tap water before pouring hot tea into the teapot to preventing cracking.  And, never place bone china or porcelain tea ware on a stove top."      
+        }
+    },
+    {
+        "pk": 4,
+        "model": "faq.faq",
+        "fields": {
+            "name": "Q4",        
+            "question": "What should I look for when buying a teapot?",
+            "answer": "The chamber needs to be big enough to allow the tea leaves to expand as well as let the water circulate. The easiest way to see if a teapot has a chamber that is big enough is to look at the tea when you are finished brewing it. If there looks like there is a lot of room left in the chamber, then it is good size."      
+        }
+    },
+    {
+        "pk": 5,
+        "model": "faq.faq",
+        "fields": {
+            "name": "Q5",        
+            "question": "What was the purpose of the teapot?",
+            "answer": "A teapot is a vessel used for steeping tea leaves or a herbal mix in boiling or near-boiling water, and for serving the resulting infusion which is called tea."      
+        }
+    },
+    {
+        "pk": 6,
+        "model": "faq.faq",
+        "fields": {
+            "name": "Q6",        
+            "question": "Why do teapots have a hole in the lid?",
+            "answer": "The hole in the lid of some teapots is a vent hole. By allowing stream to vent it prevents both a build up of pressure in the pot and rattling and clanging as steam otherwise escapes around the lip of the lid. The pressure might also cause the flow to be uneven or else stop entirely."      
+        }
+    }
+    
+]

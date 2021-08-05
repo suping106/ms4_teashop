@@ -49,14 +49,9 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="faq-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black" href="{% url 'faq' %}">
                 FAQ
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="faq-link">
-                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">Teapots</a>
-                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Tea</a>
-                
-            </div>
+            </a>            
         </li>
     </ul>
 </div>
