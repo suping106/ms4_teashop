@@ -3,10 +3,10 @@
         "pk": 1,
         "model": "products.product",
         "fields": {
-            "sku": "1",
+            "sku": "bt001",
             "name": "English Black Tea",
             "description": "Brisk and slightly coppery with a somewhat lemony quality",
-            "price": 19.99,
+            "price": 12.99,
             "category": 1,
             "rating": 4,
             "image_url": null,
@@ -14,31 +14,213 @@
         }
     },  
     {
-        "pk": 1,
+        "pk": 2,
         "model": "products.product",
         "fields": {
-            "sku": "2",
+            "sku": "bt002",
             "name": "Yunnan Black Tea",
-            "description": "Brisk and slightly coppery with a somewhat lemony quality",
-            "price": 14.99,
-            "category": 1,
-            "rating": 4,
-            "image_url": null,
-            "image": "yunnan-black_-tea_q6O2kNF.jpg"
-        }
-    },  
-    {
-        "pk": 1,
-        "model": "products.product",
-        "fields": {
-            "sku": "3",
-            "name": "LongJing Tea",
-            "description": "Brisk and slightly coppery with a somewhat lemony quality",
-            "price": 24.99,
+            "description": "Deep red with molasses-like sweetness, a subtle milkiness and light coppery finish",
+            "price": 19.99,
             "category": 1,
             "rating": 4.5,
             "image_url": null,
             "image": "yunnan-black_-tea_q6O2kNF.jpg"
         }
-    },   
+    },  
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "sku": "citp001",
+            "name": "Dutch Cast Iron Teapot",
+            "description": "Bring warmth and style to any table with this two-tone blue trivet. perfect as décor item or functional hot plate/trivet.",
+            "price": 99.99,
+            "category": 2,
+            "rating": 4.6,
+            "image_url": null,
+            "image": "dutch-cast-iron-teapot_f4m7Kho.jpg"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "sku": "citp002",
+            "name": "Japanese Cast Iron Teapot",
+            "description": "Good Life Tea Japanese Cast Iron Teapot Set with matching tea cups and trivet.",
+            "price": 125.99,
+            "category": 2,
+            "rating": 4.6,
+            "image_url": null,
+            "image": "Japaness-cast-iron-teapot.jpeg"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt003",
+            "name": "Vanilla Black Tea",
+            "description": "The elegant flavor of the vanilla 'bourbon' nuances the astringency of the Black Tea.",
+            "price": 19.99,
+            "category": 3,
+            "rating": 4.8,
+            "image_url": null,
+            "image": "vanilla-black-tea.jpg"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "sku": "bt004",
+            "name": "Assam Black Tea",
+            "description": "A rich coppery color with a full body, hints of malt and toast, and moderate astringency.",
+            "price": 19.99,
+            "category": 4,
+            "rating": 4.6,
+            "image_url": null,
+            "image": "Assam_Tea.png"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "sku": "gt001",
+            "name": "Umami Green Tea",
+            "description": "Top shelf green tea combining first flush matcha with gyokuro for the most vivid emerald green infusion and lush umami flavor.",
+            "price": 15.99,
+            "category": 4,
+            "rating": 4.6,
+            "image_url": null,
+            "image": "umami-green-tea.jpg"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "sku": "gtp001",
+            "name": "Blossom Glass Teapot",
+            "description": "Temperature safe borosilicate glass is specially crafted to retain heat and freshness for longer while continuing to provide crystal clear clarity.",
+            "price": 25.99,
+            "category": 5,
+            "rating": 4.8,
+            "image_url": null,
+            "image": "blossom_teapot_AZZLJnN.jpg"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "sku": "gtp002",
+            "name": "Glass Swan Teapot",
+            "description": "Glass teapot with an elegant designer swan handle.",
+            "price": 29.99,
+            "category": 5,
+            "rating": 4.6,
+            "image_url": null,
+            "image": "glass-swan-teapot_BLOxJCk.jpg"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "sku": "gt002",
+            "name": "LongJing tea",
+            "description": "Buttery-rich and savory green, reminding of asparagus, snow peas and chestnuts.",
+            "price": 25.99,
+            "category": 6,
+            "rating": 4.5,
+            "image_url": null,
+            "image": "long-jing-green-tea_Jmx0NwS.jpg"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+            "sku": "gt003",
+            "name": "Jasmine tea",
+            "description": "Bold and juicy jasmine aroma lingers over a fuller-bodied green tea flavor",
+            "price": 129.99,
+            "category": 6,
+            "rating": 4.6,
+            "image_url": null,
+            "image": "jasmine-tea_s1YXgjg.jpg"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.product",
+        "fields": {
+            "sku": "gt004",
+            "name": "Sencha Green Tea",
+            "description": "A sweet and full-bodied green tea flavor",
+            "price": 19.99,
+            "category": 7,
+            "rating": 4.6,
+            "image_url": null,
+            "image": "sencha-green-tea.jpg"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.product",
+        "fields": {
+            "sku": "ptp001",
+            "name": "Vintage Porcelain Teapot",
+            "description": "Vintage Blue Rose Porcelain Teapot",
+            "price": 39.99,
+            "category": 8,
+            "rating": 4.8,
+            "image_url": null,
+            "image": "vintage-teapot_iY7OeNJ.jpg"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "sku": "ptp002",
+            "name": "Russian Porcelain Teapot",
+            "description": "This Russian teapot complements the tea cups and the dessert plates.",
+            "price": 40.99,
+            "category": 8,
+            "rating": 4.6,
+            "image_url": null,
+            "image": "russian-porcelain-teapot.jpg"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.product",
+        "fields": {
+            "sku": "ytp001",
+            "name": "Melon Yixing Teapot",
+            "description": "This melon teapot is perfect for brewing large-leaf teas, as the leaves will have plenty of space in its wide body to expand while they brew.",
+            "price": 89.99,
+            "category": 9,
+            "rating": 4.7,
+            "image_url": null,
+            "image": "yixing-melon-teapot_wA45vwY.jpg"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "products.product",
+        "fields": {
+            "sku": "ytp002",
+            "name": "Exquisite Yixing Teapot",
+            "description": "Elegant and classic. It is decorated with birds and plants on one side and a Chinese poem on the other side.",
+            "price": 99.99,
+            "category": 9,
+            "rating": 5,
+            "image_url": null,
+            "image": "exquisite-yixing-teapot_cG5EGiT.jpg"
+        }
+    }
 ]
