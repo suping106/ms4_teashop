@@ -115,22 +115,79 @@ Navigation Bar
 
 - Fixed navigation bar is visible on all pages with search form, account, shopping bag and site navigation links
 
-Home page
+Home Page
 
 - Is styled using bootstrap for responsive design
 - Fixed navbar 
 - Shop Now button links to product page
 - Toasts are used to display action info for user
 
-Product page
+Product Page
 
 - Displays all product image cards with name and price info
 - Product image links to product details page
 
-Product details page
+Product Details Page
 
-- Displays product details info 
-- 
+- Displays product details info and reviews
+- Registered users have the option to add, edit or delete their reviews and give a rating to products through a modal input form
+
+Shopping Bag
+- Displays product(s) info in the shopping bag
+
+Checkout Page
+- Displays order summary 
+- Input form for user input shipping and payment info 
+
+Sign Up Page
+- Input form for user to sign up
+
+Sign In Page
+- Input form for user to sign in
+
+Profile Page
+- Displays user's order history
+- Input form for user to edit/update user info
+
+product Management Page
+- Input form for owner to add new products
+
+**Future Improvement**
+
+Due to the time constraints and the scope of the project there's lots of room for improvment. For future features/improvement I would like to add 
+- More customized design to the project
+- Contact form 
+- Blog
+
+## Technologies Used ##
+
+Languages:
+- HTML5
+- CSS3
+- Javascript
+- Python
+
+Frameworks:
+- Django
+- Bootstrap
+- Jquery
+
+Storing/editing/deploying Code:
+- Gitpod
+- Github
+- Heroku
+
+Storage/Database:
+- Amazon Web Services (to store static/image files)
+- Heroku Postgres (for database)
+
+Payment Handling:
+- Stripe (for facilitating payments)
+
+Other:
+- Google Fonts
+- Font Awesome
+
 
 
 

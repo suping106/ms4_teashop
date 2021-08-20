@@ -114,6 +114,12 @@ input[name='q']::placeholder {
     color: #aab7c4;
 }
 
+/* ----------------------------- faq -----------*/
+
+.faq-text {
+    text-align: center;
+}
+
 /* ------------------------------- bootstrap toasts */
 
 .message-container {
