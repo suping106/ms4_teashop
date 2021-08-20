@@ -97,7 +97,41 @@ For registered users, shows personal details and order history.
 ---
 **Wireframes**
 
-Click [here](/assets/wireframes/MS4_wireframs.pdf) to open wireframes.
+Click[here](/assets/wireframes/MS4_wireframes.pdf) to open wireframes.
+
+**Database Schema**
+
+![here](/assets/images/data_schema.png) 
+
+## Surface ##
+---
+This website uses simple color scheme with black, white, and olive.
+
+## Features ##
+---
+**Existing**
+
+Navigation Bar
+
+- Fixed navigation bar is visible on all pages with search form, account, shopping bag and site navigation links
+
+Home page
+
+- Is styled using bootstrap for responsive design
+- Fixed navbar 
+- Shop Now button links to product page
+- Toasts are used to display action info for user
+
+Product page
+
+- Displays all product image cards with name and price info
+- Product image links to product details page
+
+Product details page
+
+- Displays product details info 
+- 
+
 
 
 
