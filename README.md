@@ -150,17 +150,20 @@ Profile Page
 - Input form for user to edit/update user info
 
 product Management Page
-- Input form for owner to add new products
+- Input form for owner only to add new products
+
+FAQs page
+- Use Materialize collapsible feature to show questions and answers
 
 **Future Improvement**
 
-Due to the time constraints and the scope of the project there's lots of room for improvment. For future features/improvement I would like to add 
+Due to the time constraints and the scope of the project I could not do too much to the project. That leaves lots of room for improvment. For the future I would like to add 
 - More customized design to the project
-- Contact form 
-- Blog
+- Add a contact form 
+- Add a blog
 
 ## Technologies Used ##
-
+---
 Languages:
 - HTML5
 - CSS3
@@ -179,19 +182,30 @@ Storing/editing/deploying Code:
 
 Storage/Database:
 - Amazon Web Services (to store static/image files)
-- Heroku Postgres (for database)
+- Heroku Postgres (for database) 
 
 Payment Handling:
-- Stripe (for facilitating payments)
+- Stripe (for payments)
 
 Other:
+- Materialize
 - Google Fonts
 - Font Awesome
 
+## Testing ##
+---
+**Responsiveness**
+
+![image](/assets/responsive/responsive_home.png)
 
 
+## Deployment ##
+---
 
+## Credits ##
+---
 
-
+## Acknowledgments ##
+---
 
 
