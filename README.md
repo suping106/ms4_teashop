@@ -101,7 +101,7 @@ Click[here](/assets/wireframes/MS4_wireframes.pdf) to open wireframes.
 
 **Database Schema**
 
-![here](/assets/images/data_schema.png) 
+![here](/assets/data_schema/data_schema.png) 
 
 ## Surface ##
 ---
@@ -165,38 +165,97 @@ Due to the time constraints and the scope of the project I could not do too much
 ## Technologies Used ##
 ---
 Languages:
-- HTML5
-- CSS3
-- Javascript
-- Python
+- HTML5 - define the structure and layout of the web page
+- CSS3 - style the web document elements
+- Javascript - implement Stripe and custom Javascript
+- Python - write the project back-end functions
+- Jinja - templating language for Python
 
 Frameworks:
-- Django
-- Bootstrap
-- Jquery
+- [Django](https://www.djangoproject.com/) - high-level Python web framework used for the backend of the project
+- [Bootstrap](https://getbootstrap.com/) - for the design of framework
+- [Jquery](https://jquery.com/) - for implementation of Bootstrap
 
 Storing/editing/deploying Code:
-- Gitpod
-- Github
-- Heroku
+- [Gitpod](https://www.gitpod.io/) - project development environment
+- [Github](https://github.com/) - host the project for software development version control using Git
+- [Heroku](https://id.heroku.com/login) - for deploying the app to the cloud platform
 
 Storage/Database:
-- Amazon Web Services (to store static/image files)
-- Heroku Postgres (for database) 
+- [Amazon Web Services](https://aws.amazon.com/) - store static and image files
+- [Heroku Postgres](https://www.postgresql.org/) - for production database
+- [SQlite3](https://www.sqlite.org/index.html) - for development database
 
 Payment Handling:
-- Stripe (for payments)
+- [Stripe](https://dashboard.stripe.com/login) - for secure payments
 
 Other:
-- Materialize
-- Google Fonts
-- Font Awesome
+- [Google Fonts](https://fonts.google.com/) - for using the fonts in the project
+- [Font Awesome](https://fontawesome.com/) - for using the icons in the project.
+- [Balsamiq](https://balsamiq.com/) - for creating project wireframes
+
+Testing tools 
+
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/) - for checking the responsiveness and debugging
+- [Am I Responsive](http://ami.responsivedesign.is/) - for checking the responsiveness
+- [W3C Markup Validation Service](https://validator.w3.org/) - is used to check HTML5 code
+- [W3C CSS validator](https://jigsaw.w3.org/css-validator/) - is used to check CSS3 code
+- [JShint](https://jshint.com/) - is used to check JavaScript code.
+- [PEP8](http://pep8online.com/) - is used to check Python code.
 
 ## Testing ##
 ---
 **Responsiveness**
 
+This website was tested on multiple mobile, tablet, laptop and desktop devices for responsiveness. 
+
 ![image](/assets/responsive/responsive_home.png)
+
+![image](/assets/responsive/responsive_products.png)
+
+![image](/assets/responsive/responsive_product_details.png)
+
+![image](/assets/responsive/responsive_products_all_teapots.png)
+
+![image](/assets/responsive/responsive_sign_in.png)
+
+![image](/assets/responsive/responsive_sign_up.png)
+
+![image](/assets/responsive/responsive_faq.png)
+
+![image](/assets/responsive/ms4_responsive_faq2.png)
+
+![image](/assets/responsive/ms4-responsive1.png) 
+
+![image](/assets/responsive/ms4-responsive2.png) 
+
+**Browser Compatibility**
+
+Compatibility of the site was tested on Google Chrome, Microsoft Edge and Firefox.
+
+![image](/assets/responsive/ms4-browser-compatibility.png) 
+
+**Code Validation**
+
+HTML code is validated through [W3 validator](https://validator.w3.org/nu/#textarea).
+
+CSS code is validated through [W3 validator](https://validator.w3.org/nu/#textarea). No error found.
+
+base.css
+
+![image](/assets/validation/base_css.png)
+
+profile.css
+
+![image](/assets/validation/profile_css.png)
+
+checkout.css
+
+![image](/assets/validation/checkout_css.png)
+
+JavaScript code is validated through [JShint](https://jshint.com/).
+
+Python code is validated through [PEP8](http://pep8online.com/).
 
 
 ## Deployment ##
@@ -204,8 +263,14 @@ Other:
 
 ## Credits ##
 ---
+**Content/media**
+All product images and descriptions were downloaded online from various websites. 
+
+**Code**
+I have used the code from Code Institute Boutique Ado Project as a base of my project.
 
 ## Acknowledgments ##
 ---
+I would like to thank my mentor Precious Ijege for his support, help, patience and encouragements. I am also grateful for the helps from tutors and slack members.
 
 
