@@ -1,15 +1,14 @@
 ## MS4 - Tea Shop ##
----
+
 Tea Shop is a ecommence store for Tea lovers. The website was created by following the basic structure of Boutique Ado with two added models of customer reviews and FAQ.
 
 The website can be access [here](https://ms4-teashop.herokuapp.com/)
 
 ## Project Summary
----
+
 The goal of this project was to create a ecommence website where users can purchase  products in this online store. Users also have abilities to create an account, add, edit and delete products, write reviews and view FAQ.
 
 ## UX 
----
 
 *User Stories*
 
@@ -46,7 +45,7 @@ The goal of this project was to create a ecommence website where users can purch
 * Easily delete a product
 
 ## 5S's
----
+
 
 *Strategy*
 
@@ -94,7 +93,7 @@ Form for users to login if existing user or signup if new user.
 For registered users, shows personal details and order history.
 
 ## Skeleton ##
----
+
 **Wireframes**
 
 Click[here](/assets/wireframes/MS4_wireframes.pdf) to open wireframes.
@@ -104,11 +103,11 @@ Click[here](/assets/wireframes/MS4_wireframes.pdf) to open wireframes.
 ![here](/assets/data_schema/data_schema.png) 
 
 ## Surface ##
----
+
 This website uses simple color scheme with black, white, and olive.
 
-## Features ##
----
+## Features #
+
 **Existing**
 
 Navigation Bar
@@ -159,11 +158,12 @@ FAQs page
 
 Due to the time constraints and the scope of the project I could not do too much to the project. That leaves lots of room for improvment. For the future I would like to add 
 - More customized design to the project
+- Add confirmation when delete a product
 - Add a contact form 
 - Add a blog
 
 ## Technologies Used ##
----
+
 Languages:
 - HTML5 - define the structure and layout of the web page
 - CSS3 - style the web document elements
@@ -204,95 +204,11 @@ Testing tools
 - [PEP8](http://pep8online.com/) - is used to check Python code.
 
 ## Testing ##
----
-**Responsiveness**
 
-This website was tested on multiple mobile, tablet, laptop and desktop devices for responsiveness. 
-
-![image](/assets/responsive/responsive_home.png)
-
-![image](/assets/responsive/responsive_products.png)
-
-![image](/assets/responsive/responsive_product_details.png)
-
-![image](/assets/responsive/responsive_products_all_teapots.png)
-
-![image](/assets/responsive/responsive_sign_in.png)
-
-![image](/assets/responsive/responsive_sign_up.png)
-
-![image](/assets/responsive/responsive_faq.png)
-
-![image](/assets/responsive/ms4_responsive_faq2.png)
-
-![image](/assets/responsive/ms4-responsive1.png) 
-
-![image](/assets/responsive/ms4-responsive2.png) 
-
-**Browser Compatibility**
-
-Compatibility of the site was tested on Google Chrome, Microsoft Edge and Firefox.
-
-![image](/assets/responsive/ms4-browser-compatibility.png) 
-
-**Code Validation**
-
-HTML code is validated through [W3 validator](https://validator.w3.org/nu/#textarea). Two errors were found. 
-
-1. Error: Element li not allowed as child of element nav in this context. (Suppressing further errors from this subtree.) 
-2. Error: Duplicate ID
-
-![image](/assets/validation/two_errors.png)
-
-Both errors were corrected by adding ul and changed second ID value.
-
-![image](/assets/validation/html_validation.png)
-
-![image](/assets/validation/home_validation.png)
-
-![image](/assets/validation/products_validation.png)
-
-![image](/assets/validation/product_detail_validation.png)
-
-![image](/assets/validation/product_add_validation.png)
-
-![image](/assets/validation/product_edit_validation.png)
-
-![image](/assets/validation/login_validation.png)
-
-![image](/assets/validation/logout_validation.png)
-
-![image](/assets/validation/profile_validation.png)
-
-![image](/assets/validation/shoppin_bag_validation.png)
-
-![image](/assets/validation/admin_validation.png)
-
-CSS code is validated through [W3 validator](https://validator.w3.org/nu/#textarea). No error found.
-
-![image](/assets/validation/css_validation.png)
-
-base.css
-
-![image](/assets/validation/base_css.png)
-
-profile.css
-
-![image](/assets/validation/profile_css.png)
-
-checkout.css
-
-![image](/assets/validation/checkout_css.png)
-
-JavaScript code is validated through [JShint](https://jshint.com/). No error found.
-
-![image](/assets/validation/jshint_js.png)
-
-Python code is validated through [PEP8](http://pep8online.com/). No error found.
-
+The testing process can be found [here](Testing.md).
 
 ## Deployment ##
----
+
 **Requirements**
 - Python3
 - Github account
@@ -360,7 +276,7 @@ Read more about the the S3 Bucket storage [here](https://aws.amazon.com/s3/). Fo
 
 
 ## Credits ##
----
+
 **Content/media**
 
 All product images and product descriptions were downloaded online from various websites. 
@@ -370,7 +286,5 @@ All product images and product descriptions were downloaded online from various 
 I have used the code from Code Institute Boutique Ado Project as a base of my project.
 
 ## Acknowledgments ##
----
+
 I would like to thank my mentor Precious Ijege for his support, help, patience and encouragements. I am also grateful for the helps from tutors and slack members.
-
-
