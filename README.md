@@ -237,9 +237,40 @@ Compatibility of the site was tested on Google Chrome, Microsoft Edge and Firefo
 
 **Code Validation**
 
-HTML code is validated through [W3 validator](https://validator.w3.org/nu/#textarea).
+HTML code is validated through [W3 validator](https://validator.w3.org/nu/#textarea). Two errors were found. 
+
+1. Error: Element li not allowed as child of element nav in this context. (Suppressing further errors from this subtree.) 
+2. Error: Duplicate ID
+
+![image](/assets/validation/two_errors.png)
+
+Both errors were corrected by adding ul and changed second ID value.
+
+![image](/assets/validation/html_validation.png)
+
+![image](/assets/validation/home_validation.png)
+
+![image](/assets/validation/products_validation.png)
+
+![image](/assets/validation/product_detail_validation.png)
+
+![image](/assets/validation/product_add_validation.png)
+
+![image](/assets/validation/product_edit_validation.png)
+
+![image](/assets/validation/login_validation.png)
+
+![image](/assets/validation/logout_validation.png)
+
+![image](/assets/validation/profile_validation.png)
+
+![image](/assets/validation/shoppin_bag_validation.png)
+
+![image](/assets/validation/admin_validation.png)
 
 CSS code is validated through [W3 validator](https://validator.w3.org/nu/#textarea). No error found.
+
+![image](/assets/validation/css_validation.png)
 
 base.css
 
@@ -253,20 +284,89 @@ checkout.css
 
 ![image](/assets/validation/checkout_css.png)
 
-JavaScript code is validated through [JShint](https://jshint.com/).
+JavaScript code is validated through [JShint](https://jshint.com/). No error found.
 
-Python code is validated through [PEP8](http://pep8online.com/).
+![image](/assets/validation/jshint_js.png)
+
+Python code is validated through [PEP8](http://pep8online.com/). No error found.
 
 
 ## Deployment ##
 ---
+**Requirements**
+- Python3
+- Github account
+- Heroku account
+- Gitpod
+- Stripe account
+- AWS Amazon account
+- Gmail account
+
+**Clone the Project**
+- Log in to GitHub
+- Locate the project repository
+- Click "Code" button
+- Copy the link shown on the popup window under "Clone with HTTPS"
+- In Gitpod teminal window make a new directory on your computer
+- At the command promt type git clone and paste the copied link
+- Press enter to create the local clone
+
+**Working with Local Copy**
+- Install all the requirements
+- Create your own env.py file to store variables
+- Add env.py to .gitignore file to keep it from being displayed publicly
+- Migrate the models to create the database
+- Load the categories data fixture first 
+- then load the product data fixture
+- then load faq data fixture
+- Create a superuser
+- Run the app by typing command: python3 manage.py runserver
+
+**Heroku Deployment**
+- Set up local workspace for Heroku
+  - In terminal window of your IDE type: pip3 freeze -- local > requirements.txt 
+  - Create a Procfile with the following text: web: gunicorn tea_shopwsgi:application
+  - Push all these files to your GitHub reposity
+
+- Set up Heroku
+  - Create a Heroku account and create a new app and select your region.
+  - Go to resources in Heroku and search for postgess. Select Hobby dev - Free and click on the provision button to add it to the project.
+  - Go to the settings app in Heroku and go to Config Vars. Click on Reveal Config Vars and add the following config variables:
+
+![image](/assets/variables/variable.png)
+
+- Set up Database
+  - Copy the DATABASE_URL (Postgres URL) from the config variables of Heroku and past it into the default database in setting.py
+  - Migrate the models to create the database 
+  - Load the data fixtures for categories, product and faq        
+  - Create a superuser        
+  - Set DATABASE_URL from settings.py back to original default DATABSE settings.
+  - Adjust the ALLOWED_HOSTS to include Heroku app URL and localhost      
+  - Push the code to Github.
+
+- Connect with Heroku
+  - Click on the Connect to GitHub section in the deploy tab in Heroku.
+  - Search your repository to connect with it.
+  - When your repository appears click on connect to connect your repository with the Heroku.
+  - Set automatic deploment
+
+**AWS S3**
+
+The static and media files are hosted in the AWS S3 Bucket. 
+- Create an account [here](https://portal.aws.amazon.com/billing/signup#/start)
+- Create an S3 bucket and set a group, policy and user in the IAM environment 
+
+Read more about the the S3 Bucket storage [here](https://aws.amazon.com/s3/). For more information about the storage in your project click [here](https://django-storages.readthedocs.io/en/latest/backends/amazon-S3.html).
+
 
 ## Credits ##
 ---
 **Content/media**
-All product images and descriptions were downloaded online from various websites. 
+
+All product images and product descriptions were downloaded online from various websites. 
 
 **Code**
+
 I have used the code from Code Institute Boutique Ado Project as a base of my project.
 
 ## Acknowledgments ##
