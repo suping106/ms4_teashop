@@ -25,14 +25,14 @@
    <div id="accordion">
       <div class="card">
          {% for f in faq %}
-            <div class="card-header" id="heading{{f.index}}">
+            <div class="card-header" id="heading{{f.pk}}">
                <h5 class="mb-0">
-                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapse{{f.index}}" aria-expanded="true" aria-controls="collapse{{f.index}}">
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapse{{f.pk}}" aria-expanded="true" aria-controls="collapse{{f.pk}}">
                      {{f.question}}
                   </button>
                </h5>
             </div>    
-            <div id="collapse{{f.index}}" class="collapse" aria-labelledby="heading{{f.index}}" data-parent="#accordion">
+            <div id="collapse{{f.pk}}" class="collapse" aria-labelledby="heading{{f.pk}}" data-parent="#accordion">
                <div class="card-body">
                   {{f.answer}}
                </div>
