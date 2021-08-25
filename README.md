@@ -30,14 +30,16 @@ The goal of this project was to create a ecommence website where users can purch
 * Feel my personal and payment information is safe and secure
 * View an order confirmation after checkout
 * Receive an email confirmation after checking out 
-* View FAQ
+- View other shopper's review
+- View FAQ
 
-**As a registered site user I want to**
-* Easily register for an account
-* Easily login or logout
-* Easily recover my password in case I forget it 
-* Receive an email confirmation after registering
-* Have a personalized user profile
+*As a registered site user I want to*
+- Easily register for an account
+- Easily login or logout
+- Easily recover my password in case I forget it 
+- Receive an email confirmation after registering
+- Have a personalized user profile
+- Enter reviews for products
 
 **As a site owner I want to**
 * Easily add a product
@@ -228,8 +230,8 @@ The testing process can be found [here](Testing.md).
 - Press enter to create the local clone
 
 **Working with Local Copy**
-- Install all the requirements
-- Create your own env.py file to store variables
+- Install all the requirements by typing command: pip3 install -r requirements.txt
+- Create your own env.py file to store environment variables
 - Add env.py to .gitignore file to keep it from being displayed publicly
 - Migrate the models to create the database
 - Load the categories data fixture first 
