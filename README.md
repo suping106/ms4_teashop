@@ -285,7 +285,10 @@ All product images and product descriptions were downloaded online from various 
 
 **Code**
 
-I have used the code from Code Institute Boutique Ado Project as a base of my project.
+I have used the code from Code Institute Boutique Ado Project and fellow student's milestone project as the base of my project.
+
+- [Boutique Ado](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+FSF_102+Q1_2020/courseware/4201818c00aa4ba3a0dae243725f6e32/d3188bf68530497aa5fba55d07a9d7d7/)
+- [Stile](https://github.com/sophieboyle1/stile-ms4)
 
 ## Acknowledgments ##
 
