@@ -80,7 +80,7 @@
 
 - Receive an email confirmation after checking out 
     - Email will send out to shopper after checking out.
-![image](/assets/user_stories/.png)
+![image](/assets/user_stories/order_confirmation_email.png)
 
 - View other shopper's review
     - At the bottom of the product detail page shopper can view registered site user's review.
