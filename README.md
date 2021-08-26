@@ -1,6 +1,6 @@
 ## MS4 - Tea Shop ##
 
-Tea Shop is a ecommence store for Tea lovers. The website was created by following the basic structure of Boutique Ado with two added models of customer reviews and FAQ.
+Tea Shop is an ecommence store for Tea lovers. The website was created by following the basic structure of Boutique Ado with two added models of customer reviews and FAQ.
 
 The website can be access [here](https://ms4-teashop.herokuapp.com/)
 
@@ -30,8 +30,8 @@ The goal of this project was to create a ecommence website where users can purch
 * Feel my personal and payment information is safe and secure
 * View an order confirmation after checkout
 * Receive an email confirmation after checking out 
-- View other shopper's review
-- View FAQ
+* View other shopper's review
+* View FAQ
 
 *As a registered site user I want to*
 - Easily register for an account
@@ -98,7 +98,7 @@ For registered users, shows personal details and order history.
 
 **Wireframes**
 
-Click[here](/assets/wireframes/MS4_wireframes.pdf) to open wireframes.
+Click [here](/assets/wireframes/MS4_wireframes.pdf) to open wireframes.
 
 **Database Schema**
 
@@ -154,7 +154,7 @@ product Management Page
 - Input form for owner only to add new products
 
 FAQs page
-- Use Materialize collapsible feature to show questions and answers
+- Use Bootstrap accordian to show questions and answers
 
 **Future Improvement**
 
@@ -174,17 +174,17 @@ Languages:
 - Jinja - templating language for Python
 
 Frameworks:
-- [Django](https://www.djangoproject.com/) - high-level Python web framework used for the backend of the project
+- [Django](https://www.djangoproject.com/) - for the backend of the project
 - [Bootstrap](https://getbootstrap.com/) - for the design of framework
 - [Jquery](https://jquery.com/) - for implementation of Bootstrap
 
 Storing/editing/deploying Code:
-- [Gitpod](https://www.gitpod.io/) - project development environment
-- [Github](https://github.com/) - host the project for software development version control using Git
+- [Gitpod](https://www.gitpod.io/) - as project development environment
+- [Github](https://github.com/) - for hosting the project for software development version control using Git
 - [Heroku](https://id.heroku.com/login) - for deploying the app to the cloud platform
 
 Storage/Database:
-- [Amazon Web Services](https://aws.amazon.com/) - store static and image files
+- [Amazon Web Services](https://aws.amazon.com/) - for storage of static and image files
 - [Heroku Postgres](https://www.postgresql.org/) - for production database
 - [SQlite3](https://www.sqlite.org/index.html) - for development database
 
@@ -200,10 +200,10 @@ Testing tools
 
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools/) - for checking the responsiveness and debugging
 - [Am I Responsive](http://ami.responsivedesign.is/) - for checking the responsiveness
-- [W3C Markup Validation Service](https://validator.w3.org/) - is used to check HTML5 code
-- [W3C CSS validator](https://jigsaw.w3.org/css-validator/) - is used to check CSS3 code
-- [JShint](https://jshint.com/) - is used to check JavaScript code.
-- [PEP8](http://pep8online.com/) - is used to check Python code.
+- [W3C Markup Validation Service](https://validator.w3.org/) - for checking HTML5 code
+- [W3C CSS validator](https://jigsaw.w3.org/css-validator/) - for checking CSS3 code
+- [JShint](https://jshint.com/) - for checking JavaScript code.
+- [PEP8](http://pep8online.com/) - for checking Python code.
 
 ## Testing ##
 
@@ -254,7 +254,7 @@ The testing process can be found [here](Testing.md).
 ![image](/assets/variables/variable.png)
 
 - Set up Database
-  - Copy the DATABASE_URL (Postgres URL) from the config variables of Heroku and past it into the default database in setting.py
+  - Copy the DATABASE_URL (Postgres URL) from the config variables of Heroku and paste it into the default database in setting.py
   - Migrate the models to create the database 
   - Load the data fixtures for categories, product and faq        
   - Create a superuser        

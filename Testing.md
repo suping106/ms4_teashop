@@ -63,16 +63,17 @@
 ![image](/assets/user_stories/checkout_total.png)
 
 - Adjust the quantity of individual items in my bag 
-    - Shopper can adjust the quantity of individual items in the shopping bag page either type in the quantity or use + / - arrows.
+    - Shopper can adjust the quantity of individual items in the shopping bag page either type in the quantity or click + / - icons on both sides of the quantity box.
 ![image](/assets/user_stories/quantity_box_bag.png)
 
 - Easily enter my payment information
     - Payment information can be easily entered through payment form provided on chechout page.
-![image](/assets/user_stories/checkout_total.png)
+![image](/assets/user_stories/checkout_payment.png)
 
 - Feel my personal and payment information is safe and secure
     - Payment is handled by Stripe online payment platform which is safe and secure. 
-![image](/assets/user_stories/checkout_payment.png)
+![image](/assets/user_stories/secure_checkout_toast.png)
+![image](/assets/user_stories/secure_checkout.png)
 
 - View an order confirmation after checkout
     - After checkout an order confirmation page will show the order info, order details, delivery and payment info. 
@@ -82,8 +83,8 @@
     - Email will send out to shopper after checking out.
 ![image](/assets/user_stories/order_confirmation_email.png)
 
-- View other shopper's review
-    - At the bottom of the product detail page shopper can view registered site user's review.
+- View other user's review
+    - At the bottom of the product detail page users can view registered site user's review.
 ![image](/assets/user_stories/review.png)
 
 - View FAQ
@@ -101,13 +102,12 @@
 ![image](/assets/user_stories/register_my_account.png)
 ![image](/assets/user_stories/sign_in.png)
 
-    - Click **My Account** and select **Logout** in Home page to logout.
+    - Click **My Account** and select **Logout** in Home page a registered user can easily logout.
 ![image](/assets/user_stories/registered_my_account.png)
 ![image](/assets/user_stories/sign_out.png)
 
-
 - Easily recover my password in case I forget it 
-    - If registered user forgot the password his/her can reset the password by entering registered email address and received and email for resetting password.
+    - If registered user forgot the password his/her can reset the password by entering registered email address and received an email for resetting password.
 ![image](/assets/user_stories/password_reset.png)
 ![image](/assets/user_stories/password_reset_email_confirmation.png)
 ![image](/assets/user_stories/password_reset_email.png)
@@ -168,16 +168,14 @@ Compatibility of the site was tested on Google Chrome, Microsoft Edge and Firefo
 
 **Code Validation**
 
-HTML code is validated through [W3 validator](https://validator.w3.org/nu/#textarea). Two types of error were found. 
+- HTML code is validated through [W3 validator](https://validator.w3.org/nu/#textarea). Two types of error were found. 
 
-1. Error: Element li not allowed as child of element nav in this context. (Suppressing further errors from this subtree.) 
-2. Error: Duplicate ID
-
+    1. Error: Element li not allowed as child of element nav in this context. (Suppressing further errors from this subtree.) 
+    2. Error: Duplicate ID
 ![image](/assets/validation/two_errors.png)
-
 ![image](/assets/validation/faq_validation_error.png)
 
-All errors were corrected. 
+All errors were corrected!
 
 ![image](/assets/validation/html_validation.png)
 
@@ -203,34 +201,31 @@ All errors were corrected.
 
 ![image](/assets/validation/faq_validation_no_error.png)
 
-CSS code is validated through [W3 validator](https://validator.w3.org/nu/#textarea). No error found.
+- CSS code is validated through [W3 validator](https://validator.w3.org/nu/#textarea). No error found.
 
 ![image](/assets/validation/css_validation.png)
 
-base.css
-
+    - base.css
 ![image](/assets/validation/base_css.png)
 
-profile.css
-
+    - profile.css
 ![image](/assets/validation/profile_css.png)
 
-checkout.css
-
+    - checkout.css
 ![image](/assets/validation/checkout_css.png)
 
-JavaScript code is validated through [JShint](https://jshint.com/). No error found.
+- JavaScript code is validated through [JShint](https://jshint.com/). No error found.
 
 ![image](/assets/validation/jshint_js.png)
 
-Python code is validated through [PEP8](http://pep8online.com/). No error found.
+- Python code is validated through [PEP8](http://pep8online.com/). No error found.
 
-##Bug Fixed##
+**Bug Fixed**
 
-Accordion on FAQ page was not working. Clicking one question all the answers opened up.
+- Accordion on FAQ page was not working. Clicking one question all the answers opened up.
 
 ![image](/assets/responsive/ms4_responsive_faq2.png)
 
-With tutor Michael's help by adding f.pk as unique id now accordion works properly. 
+- With tutor Michael's help by adding f.pk as unique id now accordion works properly. 
 
 ![image](/assets/responsive/responsive_faq.png)
